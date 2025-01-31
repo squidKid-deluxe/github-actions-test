@@ -23,7 +23,7 @@ jobs:
 
       # Step 3: Cache pip dependencies to avoid reinstalling them every time.
       - name: Cache pip dependencies
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           # This caches the pip cache directory.
           path: ~/.cache/pip
